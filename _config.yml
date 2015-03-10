@@ -1,0 +1,24 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://euroclojureorg.github.io
+title: EuroClojure 2015
+email: events@cognitect.com
+description: > # "EuroClojure 2015"
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/EuroClojure
