@@ -55,8 +55,19 @@
 		font-weight: 400;
 	}
 
+	em {
+		font-style: italic;
+	}
+
 	p, ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
+	}
+
+	ul, ol {
+		list-style: circle;
+		list-style-position: inside;
+		padding-left: 10px;
+		margin-left: 5px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -769,6 +780,8 @@
 		min-width: 13em;
 		padding: 1em 0;
 		text-transform: uppercase;
+		list-style: none;
+		list-style-position: outside;
 	}
 
 		.dropotron.level-0 {
@@ -822,7 +835,7 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/barcelona.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/bratislava.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;

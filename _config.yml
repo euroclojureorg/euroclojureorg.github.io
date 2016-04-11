@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://euroclojureorg.github.io
-title: EuroClojure 2015
+url: http://euroclojure.org
+title: EuroClojure 2016
 email: events@cognitect.com
-description: > # "EuroClojure 2015"
+description: > # "EuroClojure 2016"
 
 # ----------------------- #
 #    Jekyll & Plugins     #
